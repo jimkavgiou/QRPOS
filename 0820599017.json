@@ -17,28 +17,28 @@
   "multiAcq" : {
     "acquirers" : [ {
       "acqIndetifier" : "014",
-      "acqName" : "Alpha Bank"
+      "acqName" : "Alpha Bank",
 	  "allowLocal" : true,
 	  "allowRefund" : true,
 	  "allowKeyEntry" : true,
 	  "allowMoto" : true
     }, {
       "acqIndetifier" : "026",
-      "acqName" : "  WORLDLINE/EUROBANK"
+      "acqName" : "  WORLDLINE/EUROBANK",
 	  "allowLocal" : true,
 	  "allowRefund" : true,
 	  "allowKeyEntry" : true,
 	  "allowMoto" : true
     }, {
       "acqIndetifier" : "011",
-      "acqName" : "Εθνική Τράπεζα"
+      "acqName" : "Εθνική Τράπεζα",
 	  "allowLocal" : true,
 	  "allowRefund" : true,
 	  "allowKeyEntry" : true,
 	  "allowMoto" : true
     }, {
       "acqIndetifier" : "017",
-      "acqName" : "Piraeus Bank"
+      "acqName" : "Piraeus Bank",
 	  "allowLocal" : true,
 	  "allowRefund" : true,
 	  "allowKeyEntry" : true,
@@ -51,7 +51,7 @@
   "allowTransactions" : {
     "isAllowSalesPayment" : true,
     "isAllowVoidPayment" : true,
-    "isAllowRefundPayment" : true
+    "isAllowRefundPayment" : true,
 	"isAllowMotoPayment" : true
   },
   "applicationSettings" : {
