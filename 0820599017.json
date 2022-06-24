@@ -1,8 +1,9 @@
+
 {
   "merchant" : {
     "merchantCity" : "HRAKLEION",
     "merchantCategoryCode" : "7399",
-    "merchantApplicationType" : "4",
+    "merchantApplicationType" : "2",
     "merchantPostalCode" : "14121",
     "merchantName" : "CARDLINK S.A.",
     "merchantAddress" : "Marinou Antupa 41-45",
@@ -17,14 +18,14 @@
   "multiAcq" : {
     "acquirers" : [ {
       "acqIndetifier" : "014",
-      "acqName" : "Alpha Bank",
+      "acqName" : "Alpha Bank/Nexi",
 	  "allowLocal" : true,
 	  "allowRefund" : true,
 	  "allowKeyEntry" : true,
 	  "allowMoto" : true
     }, {
       "acqIndetifier" : "026",
-      "acqName" : "  WORLDLINE/EUROBANK",
+      "acqName" : "Worldline/Eurobank",
 	  "allowLocal" : true,
 	  "allowRefund" : true,
 	  "allowKeyEntry" : true,
@@ -79,11 +80,11 @@
     "cardlinkOneConfiguration" : {
       "accounts" : [ ]
     },
-    "ishceSelectionEnabled" : false,
+    "ishceSelectionEnabled" : true,
     "ishceSelectionAcquirerBankId" : "011",
     "refundValidationEnabled" : false,
     "localSaleEnabled" : true,
-    "isManualAcquirerSelection" : false,
+    "isManualAcquirerSelection" :true,
     "preAuthEnabled" : true,
     "unattendedMode" : false,
     "mdbManagerEnabled" : false,
@@ -486,7 +487,7 @@
         "velocityCheck" : "1",
         "thresholdValueInRandomSelection" : "0",
         "alphaBankDCCDisclaimer" : [ "I HAVE CHOSEN TO PAY IN %dccCurrencyName% & UNDERSTAND", "MY CHOICE OF CURRENCY IS FINAL.", "THE EXCHANGE RATE IS BASED ON", "FINTRAX INCLUDING AN INTERNATION", "CONVERSION FEE OF %feePercent%%", "THIS SERVICE IS PROVIDED BY CARDLINK", "IN ASSOCIATION WITH FINTRAX." ],
-        "eurobankDCCDisclaimer" : [ "I HAVE CHOSEN TO PAY IN %dccCurrencyName% & UNDERSTAND", "MY CHOICE OF CURRENCY IS FINAL.", "THE EXCHANGE RATE IS BASED ON", "EUROBANK WHOLESALERATE AS OF %conversionRateDay%/%conversionRateMonth%", "PLUS AN INTERNATIONAL CONVERSION FEE", "OF %fee% %dccCurrencyName%. THIS SERVICE IS", "PROVIDED BY EUROBANK" ]
+        "eurobankDCCDisclaimer" : [ "I HAVE BEEN OFFERED A CHOICE OF CURRENCIES", "AND HAVE CHOSEN TO PAY IN %dccCurrencyName%", "THE EXCHANGE RATE IS BASED ON LATEST ECB", "RATE AS OF %conversionRateDay%/%conversionRateMonth% PLUS A CONVERSION FEE", "THIS SERVICE IS PROVIDED BY WORDLINE" ]
       }, {
         "aidName" : "VISA Electron",
         "aid" : "A0000000032010",
