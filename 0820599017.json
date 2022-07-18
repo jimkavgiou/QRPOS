@@ -3,7 +3,7 @@
   "merchant" : {
     "merchantCity" : "HRAKLEION",
     "merchantCategoryCode" : "7399",
-    "merchantApplicationType" : "2",
+    "merchantApplicationType" : "0",
     "merchantPostalCode" : "14121",
     "merchantName" : "CARDLINK S.A.",
     "merchantAddress" : "Marinou Antupa 41-45",
@@ -69,7 +69,7 @@
     "useAutoCloseBatch" : true,
     "useAutoCloseBatchTimer" : "16:40",
     "useAutoParams" : true,
-    "useAutoParamsTimer" : "13:45",
+    "useAutoParamsTimer" : "16:25",
     "alphaBankDCCSupport" : true,
     "alphaBankDCCProfileId" : "19010",
     "alphaBankDCCPartnerId" : "9010",
